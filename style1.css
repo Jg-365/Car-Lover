@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #ec0707, #fe581c,#e346e9, #ef0754);
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+}
+
+.card{
+   display: flex;
+   justify-content: center; 
+   height: 500px;
+   width: 100%; 
+   border-radius: 10%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    border-radius:10%;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+form input{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+    width: 240px;
+    margin: 10px;
+    border: none;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.2s ease;
+}
+
+form input:hover{
+    transform: scale(1.02,1.02);
+    transition: all 0.2s ease; 
+}
+
+form input:focus{
+    outline: none;
+}
+
+form a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.445);
+    font-family: "Montserrat", sans-serif;
+}
+
+form a:hover{
+    color: white;
+    transition: 0.2s ease;
+    transform: scale(1.02,1.02);
+}
+.login{
+    position: relative;
+    height: 750px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    overflow: hidden;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.links span{
+    white-space: nowrap;
+    color: rgb(255, 255, 255,0.5);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-left: 2px;
+}
+.links a{
+    white-space: nowrap;
+    color: rgb(255, 255, 255,0.5);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin-right: 10px;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 1000;
+    transition: 0.4s ease;
+}
+
+.links a:hover{
+    color: white;
+    transform: scale(1.02,1);
+    transition: 0.4s ease;
+}
+
+.links a:not(:hover){
+    transform: scale(0.7,0.7);
+} 
+
+.button{
+    background-color: #c70825;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+    width: 50%;
+    
+}
+
+.senha{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.senha .fa-solid{
+    position: absolute;
+    color: grey;
+    padding-right: 1.5em;
+    z-index: 2000;
+    cursor: pointer;
+}
+
+.fa-solid:hover{
+    transform: scale(1.05,1.05); 
+}
+
+.drops{
+    display: flex;
+}
+
+.drops .drop1{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
